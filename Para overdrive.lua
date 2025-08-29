@@ -33,7 +33,7 @@ UICorner.Parent = Frame_2
 
 local name = Instance.new("TextLabel")
 name.Parent = Frame_2
-name.BackgroundTransparency = 0
+name.BackgroundTransparency = 1
 name.Position = UDim2.new(0, 0, 0.0501, 0)
 name.Size = UDim2.new(1, 0, 0.1642, 0)
 name.Font = Enum.Font.FredokaOne
@@ -44,7 +44,7 @@ name.TextWrapped = true
 
 local loadingtext = Instance.new("TextLabel")
 loadingtext.Parent = Frame_2
-loadingtext.BackgroundTransparency = 0
+loadingtext.BackgroundTransparency = 1
 loadingtext.Position = UDim2.new(0.161, 0, 0.2138, 0)
 loadingtext.Size = UDim2.new(0.6774, 0, 0.1207, 0)
 loadingtext.Font = Enum.Font.FredokaOne
@@ -56,7 +56,7 @@ loadingtext.TextWrapped = true
 local Dots = Instance.new("Frame")
 Dots.Name = "Dots"
 Dots.Parent = Frame_2
-Dots.BackgroundTransparency = 0
+Dots.BackgroundTransparency = 1
 Dots.Position = UDim2.new(0.2932, 0, 0.5555, 0)
 Dots.Size = UDim2.new(0.4167, 0, 0.2556, 0)
 
@@ -127,11 +127,11 @@ notifyFrame.Size = UDim2.new(0.5, 0, 0.15, 0)
 
 local notifyLabel = Instance.new("TextLabel")
 notifyLabel.Parent = notifyFrame
-notifyLabel.BackgroundTransparency = 0
+notifyLabel.BackgroundTransparency = 1
 notifyLabel.Position = UDim2.new(0, 0, 0, 0)
 notifyLabel.Size = UDim2.new(1, 0, 1, 0)
 notifyLabel.Font = Enum.Font.FredokaOne
-notifyLabel.Text = "Hola, gracias por usar Overdrive ✅"
+notifyLabel.Text = "Hola, gracias por usar Overdrive ;) ✅"
 notifyLabel.TextColor3 = Color3.fromRGB(175, 238, 238)
 notifyLabel.TextScaled = true
 notifyLabel.TextWrapped = true
